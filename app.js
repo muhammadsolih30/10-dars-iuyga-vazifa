@@ -24,7 +24,11 @@
 //    console.log("oxirgi natija bu yani nacha martada chiqqani",natija);
 // }
 
+
+
 // ! for 3
+
+
 
 // let narx = 10000;
 // let i;
@@ -77,15 +81,101 @@
 // ! for 7;
 
 
-let a = 1;
-let b = 5;
-let c = a
+// let a = 1;
+// let b = 5;
+// let c = a
 
-for (let i = a; a <= b; i++){
-   c *= c;
-   console.log(c)
-}
+// for (let i = a; a <= b; i++){
+//    c *= c;
+//    console.log(c)
+// }
 
+
+
+// ! for 8;
+
+// let n = parseInt(prompt("n ni kiriting (n > 0):"));
+
+// if (n > 0) {
+//   let S = 0;
+//   for (let i = 1; i <= n; i++) {
+//     S += 1 / i;
+//   }
+//   console.log("Yig'indi S =", S);
+// } else {
+//   console.log("n musbat butun son bo'lishi kerak.");
+// }
+
+
+// ! for 9;
+
+// let n = parseFloat(prompt("n ni kiriting (n > 0):"));
+
+// if (n > 0) {
+//   let S = 1;
+//   for (let i = 1.1; i <= n + 0.0001; i += 0.1) {
+//     S *= i;
+//   }
+//   console.log("Ko'paytma S =", S);
+// } else {
+//   console.log("n musbat son bo'lishi kerak.");
+// }
+
+
+// ! for 9;
+
+
+// let n = 5; 
+// let S = 1;
+
+// for (let i = 1; i <= n; i++) {
+//   S *= (1 + i / 10);
+// }
+
+// console.log("Natija S =", S.toFixed(5));
+
+
+
+// ! for 10;
+
+
+// let n = 5; 
+// let sum = 0;
+
+// for (let i = 1; i <= 2 * n - 1; i += 2) {
+//   sum += i;
+// }
+
+// console.log("n**2 =", sum);
+
+
+
+// ! for 11;
+
+
+// let a = 2.5; 
+// let n = 3;   
+// let natija = 1;
+
+// for (let i = 1; i <= n; i++) {
+//   natija *= a;
+// }
+
+// console.log("a ** n =", natija);
+
+
+
+// ! for 12;
+
+
+// let a = 2; 
+// let n = 5; 
+// let natija = 1;
+
+// for (let i = 1; i <= n; i++) {
+//   natija *= a;
+//   console.log("a^" + i + " =", natija);
+// }
 
 
 
